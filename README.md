@@ -1,7 +1,6 @@
 🎧 Spotify Songs EDA (2023)
 
-📊 Project Overview
-
+📊 Project Overview:
 This project performs Exploratory Data Analysis (EDA) on a Spotify songs dataset to understand the key factors that influence song popularity.
 
 The analysis focuses on:
@@ -80,7 +79,9 @@ Build a recommendation system
 Perform genre-based analysis
 
 📂 Dataset:
+
 Spotify Songs Dataset (2023)
 
 💡 Author:
+
 Krishna Srivastava
