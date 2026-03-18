@@ -1,87 +1,84 @@
-🎧 Spotify Songs EDA (2023)
+# 🎧 Spotify Songs EDA (2023)
 
-📊 Project Overview:
+## 📊 Project Overview
 This project performs Exploratory Data Analysis (EDA) on a Spotify songs dataset to understand the key factors that influence song popularity.
 
-The analysis focuses on:
-Streams (popularity)
-Platform presence (Spotify, Apple, Deezer, Shazam)
-Audio features (danceability, energy, BPM, etc.)
-Artist patterns and release trends
+---
 
-🎯 Objectives:
-Identify patterns behind high-performing (hit) songs
-Analyze the impact of playlists and charts
-Understand how audio features affect popularity
-Detect viral and overhyped songs
+## 🎯 Objectives
+- Identify patterns behind high-performing (hit) songs  
+- Analyze the impact of playlists and charts  
+- Understand how audio features affect popularity  
+- Detect viral and overhyped songs  
 
-🧹 Data Cleaning & Preparation:
-Converted columns to appropriate data types
-Handled missing values using mean/mode
-Created a unified release_date column
-Processed multiple artists using split & explode
-Engineered new features:
-total_playlist
-total_chart
-dance_bucket
+---
 
-📈 Key Analysis Performed:
-🔹 1. Popularity Analysis
-Top & bottom songs based on streams
-Distribution of streams
+## 🧹 Data Cleaning & Preparation
+- Converted columns to appropriate data types  
+- Handled missing values using mean/mode  
+- Created a unified `release_date` column  
+- Processed multiple artists using split & explode  
+- Feature engineering:
+  - `total_playlist`
+  - `total_chart`
+  - `dance_bucket`
 
-🔹 2. Artist Analysis
-Top artists by total streams
-Solo vs Collaboration comparison
-Artist-wise performance trends
+---
 
-🔹 3. Time-Based Analysis
-Songs released per year
-Year-wise stream trends
+## 📈 Key Analysis
 
-🔹 4. Platform Analysis
-Playlist and chart presence across platforms
-Correlation between playlists/charts and streams
-Multi-platform impact on song success
+### 🔹 Popularity Analysis
+- Top & bottom songs based on streams  
+- Streams distribution  
 
-🔹 5. Audio Feature Analysis
-Relationship between streams and:
-Danceability
-Energy
-Valence
-BPM
-Feature bucketing for deeper insights
+### 🔹 Artist Analysis
+- Top artists by total streams  
+- Solo vs collaboration comparison  
 
-🔹 6. Advanced Insights
-Identified viral songs (high streams, low playlist presence)
-Identified overhyped songs (high playlist presence, low streams)
-Correlation heatmaps for feature relationships
+### 🔹 Time Analysis
+- Songs released per year  
+- Year-wise stream trends  
 
-🔥 Key Insights:
-Songs with higher danceability and energy tend to perform better
-Collaborations often achieve higher average streams than solo songs
-Playlist presence strongly correlates with streams, but does not guarantee success
-Some songs go viral organically without heavy platform promotion
-Both platform exposure and audio characteristics influence popularity
+### 🔹 Platform Analysis
+- Playlist & chart presence across platforms  
+- Correlation with streams  
 
-🛠️ Tech Stack
-Python 🐍
-Pandas
-Matplotlib
-Seaborn
+### 🔹 Audio Features Analysis
+- Danceability, energy, valence, BPM impact  
+- Feature-based grouping  
 
-🚀 Conclusion:
-This analysis shows that while platform exposure increases visibility, the audio characteristics and audience preferences ultimately determine whether a song becomes a hit.
+### 🔹 Advanced Insights
+- Viral songs (high streams, low playlists)  
+- Overhyped songs (low streams, high playlists)  
+- Correlation heatmaps  
 
-📌 Future Improvements:
-Apply Machine Learning models for prediction
-Build a recommendation system
-Perform genre-based analysis
+---
 
-📂 Dataset:
+## 🔥 Key Insights
+- High danceability & energy songs tend to perform better  
+- Collaborations often have higher average streams  
+- Playlist presence boosts visibility but doesn’t guarantee success  
+- Some songs go viral organically  
 
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 🚀 Conclusion
+Song success depends on both platform exposure and audio characteristics.
+
+---
+
+## 📂 Dataset
 Spotify Songs Dataset (2023)
 
-💡 Author:
+---
 
+## 💡 Author
 Krishna Srivastava
