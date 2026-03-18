@@ -1,4 +1,5 @@
 🎧 Spotify Songs EDA (2023)
+
 📊 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on a Spotify songs dataset to understand the key factors that influence song popularity.
@@ -9,13 +10,13 @@ Platform presence (Spotify, Apple, Deezer, Shazam)
 Audio features (danceability, energy, BPM, etc.)
 Artist patterns and release trends
 
-🎯 Objectives
+🎯 Objectives:
 Identify patterns behind high-performing (hit) songs
 Analyze the impact of playlists and charts
 Understand how audio features affect popularity
 Detect viral and overhyped songs
 
-🧹 Data Cleaning & Preparation
+🧹 Data Cleaning & Preparation:
 Converted columns to appropriate data types
 Handled missing values using mean/mode
 Created a unified release_date column
@@ -25,8 +26,7 @@ total_playlist
 total_chart
 dance_bucket
 
-📈 Key Analysis Performed
-
+📈 Key Analysis Performed:
 🔹 1. Popularity Analysis
 Top & bottom songs based on streams
 Distribution of streams
@@ -58,7 +58,7 @@ Identified viral songs (high streams, low playlist presence)
 Identified overhyped songs (high playlist presence, low streams)
 Correlation heatmaps for feature relationships
 
-🔥 Key Insights
+🔥 Key Insights:
 Songs with higher danceability and energy tend to perform better
 Collaborations often achieve higher average streams than solo songs
 Playlist presence strongly correlates with streams, but does not guarantee success
@@ -71,16 +71,16 @@ Pandas
 Matplotlib
 Seaborn
 
-🚀 Conclusion
+🚀 Conclusion:
 This analysis shows that while platform exposure increases visibility, the audio characteristics and audience preferences ultimately determine whether a song becomes a hit.
 
-📌 Future Improvements
+📌 Future Improvements:
 Apply Machine Learning models for prediction
 Build a recommendation system
 Perform genre-based analysis
 
-📂 Dataset
+📂 Dataset:
 Spotify Songs Dataset (2023)
 
-💡 Author
+💡 Author:
 Krishna Srivastava
