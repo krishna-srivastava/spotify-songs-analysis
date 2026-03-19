@@ -71,7 +71,7 @@ This project performs Exploratory Data Analysis (EDA) on a Spotify songs dataset
 ---
 
 ## 🚀 Conclusion
-Song success depends on both platform exposure and audio characteristics.
+Song success depends on both platform exposure and audio characteristics
 
 ---
 
