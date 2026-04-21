@@ -1,4 +1,4 @@
-# 🎧 Spotify Songs EDA (2023)
+# 🎧 Spotify Songs EDA
 
 ## 📊 Project Overview
 This project performs Exploratory Data Analysis (EDA) on a Spotify songs dataset to understand the key factors that influence song popularity.
